@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Base Business</title>
     <link rel="stylesheet" href="./style.css">
 </head>
@@ -28,18 +28,26 @@
     <section class="news">
         <div class="news_card">
             <h2 class="news_card_title">Sample post with links Paragraphs, etc</h2>
-            <p class="news_card_author">Posted on Wednesday, <time datetime="2014-04-23">April 23 2014</time>, posted by:<a rel="author" href="#">Lucas Gondin</a> with <a href="#">1 Comment</a></p>
-            <img class="news_card_thumb" src="images/thumb.jpg" alt="uma moça comprimentando um jovem, do filme up altas aventuras">
-            <p class="news_card_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, quidem veniam.ipsum dolor sit amet consectetur adipisicing elit. ipsum dolor sit amet consectetur adipisicing elit. </p>
-            <a class="news_card_button" href="#">Read More</a><br/><br/>
-            <p class="news_card_author">Posted for: <a href="#">Lucas Gondin</a></p>
+            <p class="news_card_author">Posted on Wednesday, <time datetime="2014-04-23">April 23 2014</time>, posted by: <a rel="author" href="#">Lucas Gondin</a> with <a href="#">1 Comment</a></p>
+            <div class="news_card_align">
+                <img class="news_card_thumb" src="images/thumb.jpg" alt="uma moça comprimentando um jovem, do filme up altas aventuras">
+                <div class="news_card_align_2">
+                    <p class="news_card_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, quidem veniam.ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, quidem veniam.ipsumLorem ipsum dolor sit amet consectetur adipisicing elit. Optio,
+                        quidem veniam.ipsum dolor sit amet consectetur adipisicing elit. ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <a class="news_card_button" href="#">Read More</a><br/><br/>
+                </div>
+            </div>
+
+            <p class="news_card_author_posted">Posted for: <a href="#">Lucas Gondin</a></p>
         </div>
 
         <div class="news_popularposts">
-            <input type="search" name="search-post" id="search" placeholder="pesquise aqui">
+            <input class="search_bar" type="search" name="search-post" id="search" placeholder="Search">
             <h3>Popular Posts</h3>
-            <img class="news_popularposts_thumb" src="images/thumb.jpg" alt="uma moça comprimentando um jovem, do filme up altas aventuras">
-            <p class="news_popularposts_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, quidem veniam.ipsum dolor sit amet consectetur adipisicing elit. ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <div class="news_card_align_popularpost">
+                <img class="news_popularposts_thumb" src="images/thumb.jpg" alt="uma moça comprimentando um jovem, do filme up altas aventuras">
+                <p class="news_popularposts_description">Lorem ipsum dolor sit aLorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
         </div>
     </section>
 
