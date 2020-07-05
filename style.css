@@ -1,9 +1,12 @@
     body {
         margin: 0;
+        background-color: #E0E0E0;
+        font-family: Arial, Helvetica, sans-serif;
     }
     
     a {
         text-decoration: none;
+        color: #25221E;
     }
     
     li>a {
@@ -25,6 +28,7 @@
         background-color: #212832;
         padding-left: 3%;
         padding-right: 3%;
+        box-shadow: 0px 3px 15px black;
     }
     
     .nav_items_list {
@@ -63,9 +67,73 @@
     
     .news_card {
         margin-right: 30px;
+        font-family: Arial, Helvetica, sans-serif;
     }
     
     .news_popularposts {
         margin-left: 30px;
-        flex: 4;
+        flex: 2;
+        margin-top: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .news_card_align {
+        display: flex;
+    }
+    
+    .news_card_description {
+        margin-left: 20px;
+    }
+    
+    .news_card_author {
+        border: 1px solid grey;
+        padding: 5px;
+    }
+    
+    .news_popularposts_thumb {
+        width: 85px;
+        height: 60px;
+    }
+    
+    .news_popularposts_description {
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+    
+    .news_card_align_popularpost {
+        display: flex;
+        width: 350px;
+        min-width: 150px;
+    }
+    
+    .news_card_align_2 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .news_card_button {
+        align-self: flex-end;
+        justify-self: flex-end;
+    }
+    
+    .news_card_description {
+        flex: 3;
+    }
+    
+    .news_card_title {
+        font-size: 28px;
+    }
+    
+    .search_bar {
+        background-color: #D6D6D6;
+        border-radius: 3px;
+        width: 300px;
+        padding: 5px;
+        border: 1px solid darkgrey;
+    }
+    
+    @media (max-width: 1024px) {
+        body {
+            background-color: red;
+        }
     }
